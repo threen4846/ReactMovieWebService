@@ -1,0 +1,20 @@
+.moviewrap__moviebox {
+  width: 40vw;
+  height: 40vh;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.moviewrap__moviebox__left {
+  width: 30%;
+}
+
+.moviewrap__moviebox__right {
+  width: 60%;
+}
+
+.moviewrap__moviebox__right h2 {
+  color: #000;
+}
