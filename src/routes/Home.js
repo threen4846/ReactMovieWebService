@@ -27,9 +27,11 @@ function Home() {
             <Movie
               key={movie.id}
               id={movie.id}
+              year={movie.year}
               coverImg={movie.medium_cover_image}
               title={movie.title}
               summary={movie.summary}
+              rating={movie.rating}
               genres={movie.genres}
             />
           ))}
